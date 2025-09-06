@@ -1,0 +1,52 @@
+.sidebar-container {
+  display: flex;      
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height: 100vh;          
+  background-color: transparent;
+  overflow-y: auto;      
+}
+
+.sidebar2 {
+  flex: 0 0 auto;  
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sidebar-title p{
+  color: #eeeeee;
+}
+
+.sidebar-list {
+  display: block;
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-list li {
+  font-family: "Cinzel Decorative";
+  font-size: larger;
+  margin: 10px 0;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #EEEEEE;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.sidebar-link:hover {
+  background-color: #dddddd7b;
+}
+
+/* .sidebar-link.active {
+  background-color: #bbb;
+} */
