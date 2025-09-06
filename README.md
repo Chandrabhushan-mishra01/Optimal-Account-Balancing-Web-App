@@ -234,19 +234,7 @@ Open a PR with a clear description
 
 We follow Conventional Commits and keep PRs small & focused.
 
-📜 License
 
-MIT © You — see LICENSE
-
-📷 Screenshots / Demo
-
-Dashboard: Add image here
-
-Add Expense: Add image here
-
-Optimal Settlement: Add image here
-
-(Optional) Publish a short Loom and link it here.
 
 🧰 FAQ
 
@@ -259,13 +247,4 @@ Yes—swap the DB layer; the @optimum/algo package is pure TypeScript.
 How are fractions handled?
 All money uses fixed-precision decimals (no floating errors). Currency rounding rules are applied at presentation.
 
-🏷️ Badges (optional)
-
-Add these to the top once set up:
-
-[![CI](https://github.com/<you>/<repo>/actions/workflows/ci.yml/badge.svg)](…)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-Quick Start Script (one-liner)
-cp .env.example .env && pnpm install && pnpm prisma migrate dev && pnpm dev
 
