@@ -1,0 +1,80 @@
+.charts-container {
+  margin-left: 200px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.chr {
+  width: 80%;
+}
+
+.chart-bar, .chart-pie {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.304);
+  backdrop-filter: blur(10px);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.chart-donught {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.304);
+  backdrop-filter: blur(10px);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+  height: 700px; 
+}
+
+.chart-bar {
+  margin-bottom: 80px; 
+}
+
+.chart-pie{
+  margin-top: 80px;
+  height: 600px;
+}
+
+.pie{
+  display: flex;
+  align-items: center;
+  height: 400px;
+  justify-content: center;
+}
+
+.charts-container h1 {
+  font-size: 38px;
+  font-family: 'Cinzel Decorative';
+  text-align: center;
+  color: #EEEEEE;
+}
+
+.charts-container h2 {
+  font-size: 28px;
+  font-family: 'Cinzel Decorative';
+  text-align: center;
+  color: #EEEEEE;
+}
+
+.charts-container p {
+  font-size: 24px;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #EEEEEE;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
